@@ -2558,7 +2558,7 @@ aside {
 .login-wrap input {
 	height: 37px;
 	width: 100%;
-	border-radius: 30px;
+	border-radius: 8px;
 	border: 1px solid #cbc6ac;
 	padding: 0 15px;
 	color: #514e40;
@@ -5045,18 +5045,6 @@ blockquote {
 
 }
 
-.logo_img {
-	width: 65px;
-	height: 65px;
-	transform: scale(1.3);
-
-}
-
-.mobile_logo_img {
-	width: 40px;
-	height: 40px;
-	transform: scale(1.2);
-}
 
 .text-white {
 	color: white !important;
@@ -5068,10 +5056,6 @@ blockquote {
 }
 
 
-.mobileNav {
-	margin-top: 32px;
-	background-color: #F4DFC8;
-}
 
 .navbar-brand {
 	height: 30px;
@@ -5092,3 +5076,154 @@ blockquote {
 	justify-content: "center" !important;
 	margin: "auto"
 }
+
+
+
+/* LMobile */
+@media only screen and (max-width: 767px) {
+	/* Styles for mobile devices */
+
+	.navbar {
+		margin-top: 32px;
+	}
+
+	.navbarLogo {
+		width: 40px;
+		height: 40px;
+		transform: scale(1.2);
+	}
+
+
+}
+
+/* LTablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+	/* Styles for tablets */
+	.navbarLogo {
+		width: 65px;
+		height: 65px;
+		transform: scale(1.3);
+
+	}
+
+}
+
+/* LLaptop */
+@media only screen and (min-width: 1024px) {
+	/* Styles for desktops */
+
+	.navbarLogo {
+		width: 50px;
+		height: 50px;
+		transform: scale(1.2);
+
+	}
+
+	.navbar {
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
+
+	.navbar-brand {
+		margin-left: 10px !important;
+	}
+
+	.navbar-right {
+		margin-right: 100px !important;
+
+	}
+
+	.navbar-nav {
+		margin-left: 10px !important;
+	}
+
+}
+
+
+@media only screen and (min-width: 1295px) {
+	.navbar-brand {
+		margin-left: 80px !important;
+	}
+
+	.navbar-right {
+		margin-right: 80px !important;
+
+	}
+
+	.navbar-nav {
+		margin-left: 80px !important;
+	}
+
+}
+
+.navbar {
+	/* background-color: #F4DFC8; */
+	background-color: #f1cca2;
+
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #5e4141 !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #4d3030 !important;
+	transform: scale(1.05);
+	transition: transform 0.3s ease;
+}
+
+.navbar-default .navbar-brand {
+	color: #5e4141 !important;
+
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #4d3030 !important;
+	transform: scale(1.01);
+	transition: transform 0.3s ease;
+}
+
+.login_logo {
+	margin-top: -75px;
+	width: 430px;
+	max-width: "10px !important";
+	aspect-ratio: 1/1;
+	padding: 30px;
+
+	opacity: 0.8;
+}
+
+.FlexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.login-wrap {
+	display: flex;
+}
+
+.form-container,
+.image-container {
+	height: 100%;
+	/* You can adjust this value as needed */
+}
+
+/* Style adjustments for form container (optional) */
+.form-container {
+	padding: 20px;
+	/* Add padding as needed */
+	box-sizing: border-box;
+}
+
+/* Style adjustments for image container (optional) */
+.image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Additional styles as needed */
