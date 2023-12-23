@@ -207,7 +207,6 @@ header {
 	font-size: 30px;
 	font-style: italic;
 	position: relative;
-	z-index: 9999;
 }
 
 .archive-link:hover {
