@@ -197,7 +197,9 @@ header {
 .archive-link {
 	height: 60px;
 	width: 100%;
-	background: #1a1a1a url(../images/a-link.png) no-repeat right center;
+	background: #1a1a1a;
+
+	/* background: #1a1a1a url(../images/a-link.png) no-repeat right center; */
 	display: table;
 	line-height: 60px;
 	color: #fff;
@@ -710,7 +712,7 @@ article a {
 }
 
 .white-bg {
-	background: #eeebdd;
+	background: #FAF6F0;
 	/* position: relative;
 	z-index: 9999; */
 }
