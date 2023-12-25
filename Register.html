@@ -182,7 +182,7 @@
       <!-- Main content -->
       <div class="main-wrap">
         <div class="container login-wrap">
-          <div class="col-md-8 col-xs-12 form-container">
+          <div class="col-md-8 form-container">
             <div class="l-info">
               <h3>Register</h3>
               <p>
@@ -202,6 +202,8 @@
 
                 <input type="password" placeholder="Password" />
                 <input type="password" placeholder="Confirm Password" />
+                <label> Select your membership plan </label>
+
                 <div class="radio">
                   <label>
                     <input
@@ -211,8 +213,28 @@
                       value="option1"
                       checked
                     />
-                    Option one is this and that&mdash;be sure to include why
-                    it's great
+                    Monthly
+                  </label>
+
+                  <label>
+                    <input
+                      type="radio"
+                      name="optionsRadios"
+                      id="optionsRadios2"
+                      value="option2"
+                      checked
+                    />
+                    Yearly
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="optionsRadios"
+                      id="optionsRadios3"
+                      value="option3"
+                      checked
+                    />
+                    Weekly
                   </label>
                 </div>
                 <a class="forgot-pass" href="/Login.html"
@@ -222,7 +244,7 @@
               </form>
             </div>
           </div>
-          <div class="col-md-8 col-xs-12 image-h-container">
+          <div class="col-md-8 image-h-container">
             <img
               src="/images/sliderImages/slider1.jpg"
               class="img-responsive"
